@@ -1,0 +1,80 @@
+.container-flex{
+    padding: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: auto;
+  padding: 20px;
+  justify-content: space-between;
+  
+}
+.flexone {
+    margin-left: 50px;
+    padding-left:30px;
+    margin: 20px;
+    color: #fff;
+}
+.flexone h1{
+    font-size: 70px;
+    font-weight: bolder;
+    
+}
+.flexone p{
+    color:rgb(187, 181, 181);
+    font-size: 20px;
+    
+    
+}
+.form{
+    width: auto;
+    align-items: center;
+}
+.form-control{
+    background-color:  rgb(26, 25, 25);
+    height: 60px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 40px rgb(184, 179, 179);
+    justify-content: space-evenly;    
+}
+.form textarea{
+    height: 100px;
+}
+.btn{
+    margin: 20px;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px ;
+    border-color: rgb(290,0,77);
+    color: rgb(290,0,77);
+
+}
+.btn:hover{
+    background-color:rgb(290,0,77);
+    border-color: rgb(290,0,77);
+    color: #fff;
+}
+
+.flextwo { 
+    margin-left: 30px;
+    margin: 20px;
+}
+
+@media (max-width:789px){
+    .container-flex{
+        flex-direction: column-reverse;
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    .flexone{
+        width: auto;
+    }
+    .form{
+        width: auto;
+    }
+    .flextwo{
+        display: none;
+    }
+}

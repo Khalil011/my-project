@@ -1,0 +1,45 @@
+.header{
+    background-image: url('../../img5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.header__content {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    margin-left: -80px;
+  }
+  .header__section h1 {
+    font-size: 57px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header__section p {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+  .card{
+    background-color: rgb(290 , 0,77);
+  }
+  @media (max-width:768px){
+    .header{
+      background-image: none;
+      background-color: black;
+      text-align: center;
+    }
+    .header__content{
+      margin-left: 0;
+    }
+    .card{
+      margin: 0;
+    
+    }
+  }
+
+  
+  
+  

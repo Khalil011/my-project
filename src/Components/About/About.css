@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    padding:50px;
+}
+.content{
+    background-color: rgb(26, 25, 25);
+    color: #fff;
+    flex:3;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.card{
+    flex:2;
+    border: none;
+}
+img{
+    height: 500px;
+    border-radius: 30px;
+}
+
+#demo{
+    color:#fff;
+}
+.accordion{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.data{
+    background-color: black;
+    border: 1px solid #fff;
+}
+
+@media (max-width:786px){
+    .about{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+}
